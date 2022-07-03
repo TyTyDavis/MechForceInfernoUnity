@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d57b6a5e62f8fd4093f0ca5a5e322d7, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 5ee49d4dc8488f744ad4862c207003e9, type: 2}
+  - {fileID: 11400000, guid: 1d4c2c765294688429da3849174f8171, type: 2}
+  - {fileID: 11400000, guid: 9fea7fb86e526094a8f4294a96237afd, type: 2}
+  - {fileID: 11400000, guid: b04bd62772476964cb854ca25a9f1eb7, type: 2}
+  - {fileID: 11400000, guid: e5aab28ffd0771c4f9555b379a425e62, type: 2}
+  - {fileID: 11400000, guid: 4186420343d8e314fa8d4f65ac9d5c54, type: 2}
+  - {fileID: 11400000, guid: 93188f6e44aef1644b1c2ea36ead6813, type: 2}
+  - {fileID: 11400000, guid: 7c9edc739a10f5f499dab439b539f4ae, type: 2}
+  - {fileID: 11400000, guid: 366d8c4b5245407408e3f330e1a968d4, type: 2}
+  - {fileID: 11400000, guid: 4e7edc9e0c1ca024da5c3e69a33a9b30, type: 2}
+  - {fileID: 11400000, guid: 3027237bce0c492429f848ed79a32a8e, type: 2}
+  - {fileID: 11400000, guid: c1e3cdbd562cdd44e9504e7eece1fdc5, type: 2}
+  - {fileID: 11400000, guid: 464460b4a73ebe24b9897f2ee123c795, type: 2}
+  - {fileID: 11400000, guid: cf95185a65f3f444d81220064e4e00a8, type: 2}
+  - {fileID: 11400000, guid: 3640572af60b6ea4d861890c674e1568, type: 2}
+  - {fileID: 11400000, guid: 75d950b71386fc44bb00eb48d1fe57c6, type: 2}
+  - {fileID: 11400000, guid: e8585d6f9cdf8734aa01f667d6d409e4, type: 2}
+  - {fileID: 11400000, guid: f7c79684f721be74ebc8c0f9a2b6724b, type: 2}
+  - {fileID: 11400000, guid: 96acc41159f9b1f4ba329ebb4228cbe4, type: 2}
+  walkable: 1
+  waterSource: 0
+  igniteTurns: 3

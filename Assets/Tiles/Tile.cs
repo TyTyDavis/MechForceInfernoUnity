@@ -15,10 +15,10 @@ public class Tile : MonoBehaviour
     }
 
     void OnMouseEnter(){
-        _highlight.SetActive(true);
+        //_highlight.SetActive(true);
     }
 
     void OnMouseExit(){
-        _highlight.SetActive(false);
+        //_highlight.SetActive(false);
     }
 }
