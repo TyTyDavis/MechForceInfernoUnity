@@ -13,6 +13,8 @@ public class MapManager : MonoBehaviour
 
     private Dictionary<TileBase, TileData> dataFromTiles;
 
+    public GameObject cursor;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -31,12 +33,12 @@ public class MapManager : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
             {   
-                Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                Vector3Int gridPosition = map.WorldToCell(mousePosition);
+                Vector2 cursorPosition = new Vector2(cursor.transform.position.x, cursor.transform.position.y);
+                Vector3Int gridPosition = map.WorldToCell(cursorPosition);
                 TileBase clickedTile = map.GetTile(gridPosition);
 
                 bool walkable = dataFromTiles[clickedTile].walkable;
-                print("tile" + clickedTile + "walkbable: " + walkable);
+                print("tile" + clickedTile + "@" + cursorPosition + "walkbable: " + walkable);
         
             }
     }

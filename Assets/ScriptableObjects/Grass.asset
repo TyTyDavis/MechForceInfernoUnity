@@ -13,34 +13,22 @@ MonoBehaviour:
   m_Name: Grass
   m_EditorClassIdentifier: 
   tiles:
-  - {fileID: 11400000, guid: 7b83f9a9fb00a6946b1cbc7e3905cce5, type: 2}
-  - {fileID: 11400000, guid: 289aaf11622d6044fbad6ed5f72cdfed, type: 2}
-  - {fileID: 11400000, guid: 1a2213553cb7cd64685f9fcbcf0387db, type: 2}
-  - {fileID: 11400000, guid: 5ad7b104a1c38e941a0d51f7d9bb1202, type: 2}
-  - {fileID: 11400000, guid: 82f0c6bf71258634f8bf83d9c2719fbe, type: 2}
-  - {fileID: 11400000, guid: b5998dc108932404dbb34b81979110d5, type: 2}
-  - {fileID: 11400000, guid: 87b0de0a0c78b1e49b5eec66121866d3, type: 2}
-  - {fileID: 11400000, guid: 94882d47032e1d34aa8ab8027d1d76fa, type: 2}
-  - {fileID: 11400000, guid: 988e6949dad4f1240aebb90fedf856e2, type: 2}
-  - {fileID: 11400000, guid: 61e20da1ffc5d744db7765a22037ca61, type: 2}
-  - {fileID: 11400000, guid: 59ea21056bd706944b3b3ec52cf4685a, type: 2}
-  - {fileID: 11400000, guid: dade3f42fefe1b8458cb588dd4e21810, type: 2}
-  - {fileID: 11400000, guid: d40dbdb3179f66a4295e48f155b00aba, type: 2}
-  - {fileID: 11400000, guid: 786885102eaf5cc4487f56baf33861b5, type: 2}
-  - {fileID: 11400000, guid: 60f947d8b41b71148a136eb5b4a64434, type: 2}
-  - {fileID: 11400000, guid: 83bf9cfe3770b7047888edd2e5645875, type: 2}
-  - {fileID: 11400000, guid: 334e244e5dfb0324ebc97cb935df20da, type: 2}
-  - {fileID: 11400000, guid: bf30736aac7e85a468b138998150545d, type: 2}
-  - {fileID: 11400000, guid: a5bbe0341d591cf4b8df1ac4c522f2e2, type: 2}
-  - {fileID: 11400000, guid: 509a0ae05f82ab743bb25a7a0cc65b9c, type: 2}
-  - {fileID: 11400000, guid: 2e850cab55bbd7443943b1b83a5ff99e, type: 2}
-  - {fileID: 11400000, guid: 5894546e5a43f784fa0e504b80da8a8a, type: 2}
-  - {fileID: 11400000, guid: 4581cf57560960d4eb93174b55e0d5ea, type: 2}
-  - {fileID: 11400000, guid: 597fea8b89203b44a9ecb9e32c953bce, type: 2}
-  - {fileID: 11400000, guid: a8073a0077e30534fb32c3da49e7b125, type: 2}
-  - {fileID: 11400000, guid: d933a0a38b458a546b850a4c018f63ef, type: 2}
-  - {fileID: 11400000, guid: dda4cb95c033c154696d9c3753023b6f, type: 2}
-  - {fileID: 11400000, guid: 440c13091fee80f41921f72370354df9, type: 2}
+  - {fileID: 11400000, guid: e8196ac2af5bf9a48a9b053a16ab4a6c, type: 2}
+  - {fileID: 11400000, guid: 582a07ede1567d04ca66a7a7e6193aee, type: 2}
+  - {fileID: 11400000, guid: b143de63657b78b4692858028014f21e, type: 2}
+  - {fileID: 11400000, guid: e73bea63426524340b21f0fbee81933f, type: 2}
+  - {fileID: 11400000, guid: eb897ed4a816ee244bd50c99be7b85d4, type: 2}
+  - {fileID: 11400000, guid: d3c6c7142007f804f97475e78236b2b6, type: 2}
+  - {fileID: 11400000, guid: 95b82e24478106c49813ebce7e626866, type: 2}
+  - {fileID: 11400000, guid: 77a2501848027b843a46c20438c87860, type: 2}
+  - {fileID: 11400000, guid: c44582b9dfe321c4fa4661a50a163fa0, type: 2}
+  - {fileID: 11400000, guid: f19a63141c5271349b370e962716ad1b, type: 2}
+  - {fileID: 11400000, guid: ae291cf1f4853824f9b6eafa7c2df015, type: 2}
+  - {fileID: 11400000, guid: 1b4d220fcaccf434986f0f012b86b65e, type: 2}
+  - {fileID: 11400000, guid: 31ced99f19379f14fb3505e6b6bd5f17, type: 2}
+  - {fileID: 11400000, guid: 8e696044cf006af45a82e4eaa5d0e870, type: 2}
+  - {fileID: 11400000, guid: d8f1acf17215d534a9254544a249d136, type: 2}
+  - {fileID: 11400000, guid: 9819fe39a16f7a547a83d821a6a00860, type: 2}
   walkable: 1
   waterSource: 0
   igniteTurns: 2
