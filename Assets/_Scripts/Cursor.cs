@@ -44,6 +44,10 @@ public class Cursor : MonoBehaviour
           cursor.transform.position = new Vector2(Mathf.Floor(mousePosition.x), Mathf.Floor(mousePosition.y));  
         }
     }
+
+    private void OnMouseDown() {
+        
+    }
 }
 
 public enum CursorState {

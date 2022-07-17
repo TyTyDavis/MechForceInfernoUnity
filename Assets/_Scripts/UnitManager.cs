@@ -1,3 +1,4 @@
+#nullable enable
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,8 +28,8 @@ public class UnitManager : MonoBehaviour
 
  }
 
-  public BaseMech GetUnitAtPosition(Vector3 position){
-    for (int i = 0; i < _units.length; i++)
+  public BaseMech? GetUnitAtPosition(Vector3 position){
+    for (int i = 0; i < _units.Count; i++)
     {
         var unit = _units[i];
         if (unit.transform.position = position)
@@ -36,10 +37,11 @@ public class UnitManager : MonoBehaviour
             return unit;
         }
     }
-    return;
+    return null;
  }
 
 }
+
 
 
 
