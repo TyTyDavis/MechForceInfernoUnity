@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     }
 
     void Start(){
-        //set to menu eventually
         UpdateGameState(GameState.GenerateGrid);
     }
     public void UpdateGameState(GameState newState){
@@ -25,6 +24,7 @@ public class GameManager : MonoBehaviour
             case GameState.Menu:
                 break;
             case GameState.GenerateGrid:
+                UnitManager.Instance.SpawnMechs();
                 break;
             case GameState.PlayerTurn:
                 break;
